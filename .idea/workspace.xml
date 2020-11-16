@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,8 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745a61aa-75ae-4d54-9b3d-edfe2aef2ec3" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.3/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,39 +41,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build github.com/gnshjoo/webapp" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="webapp" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="github.com/gnshjoo/webapp" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="webapp" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="github.com/gnshjoo/go_grpc" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build github.com/gnshjoo/webapp" />
-      </list>
-    </recent_temporary>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/proto" />
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +75,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
@@ -94,6 +86,10 @@
       <screen x="0" y="25" width="1680" height="950" />
     </state>
     <state x="640" y="337" key="#Go_Modules/0.25.1680.950@0.25.1680.950" timestamp="1605414111853" />
+    <state x="1032" y="478" width="1071" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605438414754">
+      <screen x="0" y="25" width="3008" height="1589" />
+    </state>
+    <state x="1032" y="478" width="1071" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog/3008.25.3008.1667/0.25.3008.1589@0.25.3008.1589" timestamp="1605438414754" />
     <state x="555" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605413634071">
       <screen x="0" y="25" width="1680" height="950" />
     </state>
@@ -134,13 +130,26 @@
       <screen x="0" y="25" width="1680" height="950" />
     </state>
     <state width="1638" height="312" key="GridCell.Tab.1.right/0.25.1680.950@0.25.1680.950" timestamp="1605413341400" />
-    <state x="349" y="136" key="SettingsEditor" timestamp="1605414396243">
-      <screen x="0" y="25" width="1680" height="950" />
+    <state x="625" y="211" key="SettingsEditor" timestamp="1605438286434">
+      <screen x="0" y="25" width="3008" height="1589" />
     </state>
     <state x="349" y="136" key="SettingsEditor/0.25.1680.950@0.25.1680.950" timestamp="1605414396243" />
+    <state x="625" y="211" key="SettingsEditor/3008.25.3008.1667/0.25.3008.1589@0.25.3008.1589" timestamp="1605438286434" />
     <state x="440" y="237" width="948" height="651" key="Vcs.Push.Dialog.v2" timestamp="1605414817417">
       <screen x="0" y="25" width="1680" height="950" />
     </state>
     <state x="440" y="237" width="948" height="651" key="Vcs.Push.Dialog.v2/0.25.1680.950@0.25.1680.950" timestamp="1605414817417" />
+    <state x="975" y="464" width="597" height="735" key="find.popup" timestamp="1605494509118">
+      <screen x="0" y="25" width="3008" height="1589" />
+    </state>
+    <state x="975" y="464" width="597" height="735" key="find.popup/-3008.25.3008.1667/0.25.3008.1589@0.25.3008.1589" timestamp="1605494509118" />
+    <state x="1322" y="393" width="670" height="676" key="search.everywhere.popup" timestamp="1605437569913">
+      <screen x="0" y="25" width="3008" height="1589" />
+    </state>
+    <state x="1322" y="393" width="670" height="676" key="search.everywhere.popup/3008.25.3008.1667/0.25.3008.1589@0.25.3008.1589" timestamp="1605437569913" />
+    <state x="1004" y="718" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605493384562">
+      <screen x="0" y="25" width="3008" height="1589" />
+    </state>
+    <state x="1004" y="718" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-3008.25.3008.1667/0.25.3008.1589@0.25.3008.1589" timestamp="1605493384562" />
   </component>
 </project>

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package config;
+
+import "google/api/annotations.proto";
+
+// 설정 조회 서비스
+service ConfigStore {
+  rpc Get (ConfigRequest) returns (ConfigResponse){
+    option (google.api.http) = {
+      post: "/v1/example/echo"
+      body: "*"
+    };
+  }
+}
+
+// 요청
+message ConfigRequest {
+  string profile = 1;
+}
+
+// 응답
+message ConfigResponse {
+  string json_config = 1;
+}
