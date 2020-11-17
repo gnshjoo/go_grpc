@@ -14,10 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745a61aa-75ae-4d54-9b3d-edfe2aef2ec3" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.proto" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.3/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -82,6 +82,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="636" y="434" key="#GOROOT" timestamp="1605508073726">
+      <screen x="0" y="25" width="1680" height="950" />
+    </state>
+    <state x="636" y="434" key="#GOROOT/0.25.1680.950@0.25.1680.950" timestamp="1605508073726" />
     <state x="640" y="337" key="#Go_Modules" timestamp="1605414111853">
       <screen x="0" y="25" width="1680" height="950" />
     </state>

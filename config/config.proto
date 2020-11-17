@@ -1,25 +1,26 @@
 syntax = "proto3";
 
-package config;
+package go_grpc;
 
 import "google/api/annotations.proto";
 
-// 설정 조회 서비스
-service ConfigStore {
-  rpc Get (ConfigRequest) returns (ConfigResponse){
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {
     option (google.api.http) = {
-      post: "/v1/example/echo"
-      body: "*"
+      get : "/v1/api/sayhello"
     };
   }
 }
 
-// 요청
-message ConfigRequest {
-  string profile = 1;
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
 }
 
-// 응답
-message ConfigResponse {
-  string json_config = 1;
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
 }
+

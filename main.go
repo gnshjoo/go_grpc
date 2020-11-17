@@ -1,24 +1,30 @@
 package main
 
 import (
+	pb "github.com/gnshjoo/go_grpc/config"
+	"log"
+	"net"
 	"context"
-	"flag"
-	"github.com/grpc-ecosystem/grpc-gateway/runtime"
+	"google.golang.org/grpc"
 )
 
-var (
-	grpcServerEndpoint = flag.String("grpc-server-end-point", "localhost:9090", "grpc server endpoint")
-)
+type server struct {
+	pb.UnimplementedGreeterServer
+}
 
-func run() error {
-	ctx := context.Background()
-	ctx, cancle := context.WithCancel(ctx)
-	defer cancle()
-
-	mux := runtime.NewServeMux()
-
+func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloReply, error) {
+	log.Printf("Received: %v", in.GetName())
+	return &pb.HelloReply{Message: "Hello " + in.GetName()}, nil
 }
 
 func main() {
-
+	lis, err := net.Listen("tcp", port)
+	if err != nil {
+		log.Fatalf("failed to listen: %v", err)
+	}
+	s := grpc.NewServer()
+	pb.RegisterGreeterServer(s, &server{})
+	if err := s.Serve(lis); err != nil {
+		log.Fatalf("failed to serve: %v", err)
+	}
 }
